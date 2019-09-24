@@ -9,5 +9,4 @@ class Customer
     @age = age
     @@all << self
   end
-  self.all
 end
