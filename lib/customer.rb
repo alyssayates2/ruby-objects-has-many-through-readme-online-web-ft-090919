@@ -7,10 +7,6 @@ class Customer
   def initialize(name, age)
     @name = name
     @age = age
-  end
-
-  def self.all
-    customers = []
-    @@all << customers
+    @@all << self
   end
 end
