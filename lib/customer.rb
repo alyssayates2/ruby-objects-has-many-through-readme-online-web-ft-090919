@@ -10,7 +10,6 @@ class Customer
   end
 
   def self.all
-    @@all = []
     @@all << self(:name)
   end
 end
