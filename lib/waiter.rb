@@ -4,7 +4,7 @@ class Waiter
 
   def initialize
     @name = name
-    @experience = experience
+    @experience = years
   end
 
 end
