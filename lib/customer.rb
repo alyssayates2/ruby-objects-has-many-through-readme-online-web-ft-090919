@@ -10,6 +10,7 @@ class Customer
   end
 
   def self.all
+    customer.all = []
     @@all << []
   end
 end
