@@ -1,5 +1,5 @@
 class Waiter
-  attr_accessor :name, :experience
+
 
 
   def initialize(name, experience)
